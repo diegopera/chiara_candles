@@ -219,6 +219,11 @@ h3 {
   font-weight: bolder;
   margin: 2em 2em 2em 2em;
 }
+.cursos-container-box ul li {
+  font-size: 15px;
+  list-style-type: circle;
+  text-align: left;
+}
 
 /* Definicion de Variable */
 /* Extenciones */
