@@ -1,0 +1,28 @@
+@import '../base/variables';
+@import '../base/extends';
+
+/* Estilo al footer */
+
+.footer-container {
+    @extend %flex_col_cen;
+    color: $linkColor;
+    font-family: $fuenteTitulo;
+    font-weight: $pesoTitulo;
+    margin-bottom: 5px;
+    margin-top: 2em;
+}
+
+.whats {
+    position: fixed;
+    bottom: 0px;
+    right: 1em;
+    z-index: 123456;
+}
+
+h2 {
+    font-size: $fontSizeH2;
+}
+
+h3 {
+    font-size: $fontSizeH3;
+}

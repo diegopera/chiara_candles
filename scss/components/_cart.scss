@@ -1,0 +1,30 @@
+@import '../base/variables';
+@import '../base/extends';
+
+/* Estilos pagina carrito de compra */
+
+.datos-compra-container {
+    display: flex;
+    justify-content: space-evenly;
+        div {
+            width: 100%;
+        }
+}
+
+.medio-pagos {
+    text-align: center;
+        div {
+              img {
+                margin: 0 1em 1em 1em;
+              }
+        }
+}
+
+.main-carrito-row > div {
+    margin-bottom: 2em;
+}
+
+.carrito-item {
+    font-weight: bolder;
+    font-size: 20px;
+}
